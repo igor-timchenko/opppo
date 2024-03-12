@@ -51,7 +51,7 @@ namespace TestNamespace.Tests
                     Program.Main();
                 }
 
-                StringAssert.Contains("Deleted because density == 2.0 в строке 2", sw.ToString());
+                StringAssert.Contains("Deleted because density == 2.0 Гў Г±ГІГ°Г®ГЄГҐ 2", sw.ToString());
             }
         }
 
@@ -95,7 +95,7 @@ namespace TestNamespace.Tests
                     Program.Main();
                 }
 
-                StringAssert.Contains("Ошибка: Неизвестная команда", sw.ToString());
+                StringAssert.Contains("ГЋГёГЁГЎГЄГ : ГЌГҐГЁГ§ГўГҐГ±ГІГ­Г Гї ГЄГ®Г¬Г Г­Г¤Г ", sw.ToString());
             }
         }
     }
